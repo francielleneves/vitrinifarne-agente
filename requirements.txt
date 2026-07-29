@@ -1,0 +1,16 @@
+# Interface web
+gradio==5.49.1
+
+# Agente: modelo, chunking e busca vetorial
+langchain-google-genai
+langchain-text-splitters
+faiss-cpu
+numpy
+
+# Leitura dos 8 formatos de documento
+pypdf
+python-docx
+python-pptx
+openpyxl
+beautifulsoup4
+pandas
