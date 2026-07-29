@@ -36,7 +36,9 @@ RAIZ = Path(__file__).resolve().parent.parent
 PASTA_DOCS = RAIZ / "docs"
 PASTA_INDICE = RAIZ / "indice"
 
-MODELO_CHAT = os.environ.get("MODELO_CHAT", "gemini-flash-latest")
+# Modelos configuráveis por variável de ambiente. O padrão usa a variante "lite",
+# que tem limite diário mais alto no plano gratuito do Gemini.
+MODELO_CHAT = os.environ.get("MODELO_CHAT", "gemini-flash-lite-latest")
 MODELO_EMBEDDING = os.environ.get("MODELO_EMBEDDING", "models/gemini-embedding-001")
 
 TAMANHO_PEDACO = 900
