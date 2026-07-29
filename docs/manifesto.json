@@ -1,0 +1,121 @@
+{
+  "base_de_conhecimento": "Vitrinifarne — Loja online de casa e decoração",
+  "versao_do_manifesto": "1.0",
+  "gerado_em": "2026-07-29",
+  "total_documentos": 8,
+  "documentos": [
+    {
+      "id": "DOC-01",
+      "arquivo": "politica-de-privacidade.pdf",
+      "formato": "pdf",
+      "titulo": "Política de Privacidade",
+      "categoria": "Jurídico",
+      "dominio": "Proteção de dados",
+      "versao": "2.1",
+      "atualizado_em": "2026-03-10",
+      "responsavel": "Jurídico e Privacidade",
+      "publico": "Cliente final",
+      "assuntos": ["LGPD", "cookies", "dados pessoais", "retenção", "direitos do titular"]
+    },
+    {
+      "id": "DOC-02",
+      "arquivo": "termos-e-condicoes.docx",
+      "formato": "docx",
+      "titulo": "Termos e Condições de Uso e de Compra",
+      "categoria": "Jurídico",
+      "dominio": "Contratual",
+      "versao": "1.4",
+      "atualizado_em": "2026-02-20",
+      "responsavel": "Jurídico",
+      "publico": "Cliente final",
+      "assuntos": ["cadastro", "preços", "pagamento", "responsabilidades", "foro"]
+    },
+    {
+      "id": "DOC-03",
+      "arquivo": "perguntas-frequentes.md",
+      "formato": "markdown",
+      "titulo": "Perguntas Frequentes",
+      "categoria": "Atendimento",
+      "dominio": "Suporte",
+      "versao": "3.0",
+      "atualizado_em": "2026-06-01",
+      "responsavel": "Atendimento ao Cliente",
+      "publico": "Cliente final",
+      "assuntos": ["pedidos", "pagamento", "entrega", "trocas", "conta"]
+    },
+    {
+      "id": "DOC-04",
+      "arquivo": "guia-de-envios-e-entregas.html",
+      "formato": "html",
+      "titulo": "Guia de Envios e Entregas",
+      "categoria": "Operacional",
+      "dominio": "Logística",
+      "versao": "2.0",
+      "atualizado_em": "2026-05-15",
+      "responsavel": "Logística",
+      "publico": "Cliente final",
+      "assuntos": ["prazos", "modalidades de frete", "frete grátis", "rastreio", "avarias"]
+    },
+    {
+      "id": "DOC-05",
+      "arquivo": "prazos-e-fretes.xlsx",
+      "formato": "xlsx",
+      "titulo": "Tabela de Prazos e Fretes por Região",
+      "categoria": "Operacional",
+      "dominio": "Logística",
+      "versao": "4.2",
+      "atualizado_em": "2026-07-01",
+      "responsavel": "Logística",
+      "publico": "Interno",
+      "assuntos": ["prazo por região", "valor de frete", "faixas de peso", "frete grátis"]
+    },
+    {
+      "id": "DOC-06",
+      "arquivo": "catalogo-de-produtos.csv",
+      "formato": "csv",
+      "titulo": "Catálogo de Produtos",
+      "categoria": "Comercial",
+      "dominio": "Produto",
+      "versao": "12.7",
+      "atualizado_em": "2026-07-20",
+      "responsavel": "Comercial",
+      "publico": "Interno",
+      "assuntos": ["sku", "preço", "estoque", "garantia", "sob encomenda"]
+    },
+    {
+      "id": "DOC-07",
+      "arquivo": "politica-de-reembolso.json",
+      "formato": "json",
+      "titulo": "Política de Reembolso e Devoluções",
+      "categoria": "Pós-venda",
+      "dominio": "Financeiro",
+      "versao": "2.2",
+      "atualizado_em": "2026-04-05",
+      "responsavel": "Pós-venda",
+      "publico": "Cliente final",
+      "assuntos": ["arrependimento", "defeito", "estorno", "prazos", "fluxo de devolução"]
+    },
+    {
+      "id": "DOC-08",
+      "arquivo": "treinamento-atendimento.pptx",
+      "formato": "pptx",
+      "titulo": "Treinamento de Atendimento ao Cliente",
+      "categoria": "Recursos Humanos",
+      "dominio": "Treinamento",
+      "versao": "1.1",
+      "atualizado_em": "2026-01-30",
+      "responsavel": "Atendimento ao Cliente",
+      "publico": "Interno",
+      "assuntos": ["princípios", "prazos de resposta", "casos frequentes", "escalonamento"]
+    }
+  ],
+  "regras_canonicas": {
+    "observacao": "Valores replicados entre documentos. Qualquer alteração deve ser aplicada em todos os arquivos listados.",
+    "frete_gratis_padrao_brl": 299.0,
+    "frete_gratis_norte_brl": 499.0,
+    "prazo_arrependimento_dias_corridos": 7,
+    "prazo_defeito_dias_corridos": 90,
+    "prazo_estorno_dias_uteis": 10,
+    "prazo_resposta_sac_horas_uteis": 24
+  }
+}

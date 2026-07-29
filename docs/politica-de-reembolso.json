@@ -1,0 +1,160 @@
+{
+  "documento": "Política de Reembolso e Devoluções",
+  "empresa": "Vitrinifarne Comércio Eletrônico Ltda.",
+  "versao": "2.2",
+  "atualizado_em": "2026-04-05",
+  "area_responsavel": "Pós-venda",
+  "base_legal": [
+    "Código de Defesa do Consumidor, Lei 8.078/1990, artigo 49 (direito de arrependimento)",
+    "Código de Defesa do Consumidor, Lei 8.078/1990, artigo 26 (vício do produto)",
+    "Decreto 7.962/2013 (comércio eletrônico)"
+  ],
+  "modalidades": [
+    {
+      "codigo": "ARREPENDIMENTO",
+      "nome": "Arrependimento da compra",
+      "descricao": "Cliente desistiu da compra sem que haja qualquer problema com o produto.",
+      "prazo_solicitacao_dias_corridos": 7,
+      "contagem_prazo_a_partir_de": "data de recebimento do produto",
+      "condicoes_do_produto": [
+        "sem sinais de uso",
+        "com a embalagem original",
+        "com todos os acessórios e manuais",
+        "com a nota fiscal"
+      ],
+      "custo_frete_devolucao": "por conta da Vitrinifarne",
+      "resultado": "reembolso integral, incluindo o frete pago na compra"
+    },
+    {
+      "codigo": "DEFEITO",
+      "nome": "Vício ou defeito do produto",
+      "descricao": "Produto apresenta falha de funcionamento, dano ou divergência de qualidade.",
+      "prazo_solicitacao_dias_corridos": 90,
+      "contagem_prazo_a_partir_de": "data de recebimento do produto",
+      "condicoes_do_produto": [
+        "acompanhado de fotos ou vídeo da falha",
+        "com a nota fiscal"
+      ],
+      "custo_frete_devolucao": "por conta da Vitrinifarne",
+      "prazo_analise_dias_uteis": 5,
+      "resultado": "reparo, substituição por item igual ou reembolso integral, à escolha do cliente"
+    },
+    {
+      "codigo": "AVARIA_TRANSPORTE",
+      "nome": "Avaria no transporte",
+      "descricao": "Produto danificado durante a entrega.",
+      "prazo_solicitacao_dias_corridos": 7,
+      "contagem_prazo_a_partir_de": "data de recebimento do produto",
+      "condicoes_do_produto": [
+        "fotos da embalagem externa",
+        "fotos do produto danificado"
+      ],
+      "custo_frete_devolucao": "por conta da Vitrinifarne",
+      "resultado": "substituição por item igual ou reembolso integral"
+    },
+    {
+      "codigo": "PRODUTO_DIVERGENTE",
+      "nome": "Produto diferente do pedido",
+      "descricao": "Item recebido não corresponde ao que foi comprado, em modelo, cor ou quantidade.",
+      "prazo_solicitacao_dias_corridos": 30,
+      "contagem_prazo_a_partir_de": "data de recebimento do produto",
+      "condicoes_do_produto": [
+        "sem sinais de uso",
+        "com a embalagem original"
+      ],
+      "custo_frete_devolucao": "por conta da Vitrinifarne",
+      "resultado": "envio do item correto sem custo adicional ou reembolso integral"
+    },
+    {
+      "codigo": "TROCA_POR_OUTRO_ITEM",
+      "nome": "Troca por outro produto",
+      "descricao": "Cliente deseja substituir o item por outro do catálogo.",
+      "prazo_solicitacao_dias_corridos": 7,
+      "contagem_prazo_a_partir_de": "data de recebimento do produto",
+      "condicoes_do_produto": [
+        "sem sinais de uso",
+        "com a embalagem original"
+      ],
+      "custo_frete_devolucao": "por conta do cliente",
+      "resultado": "crédito no valor pago, utilizável em novo pedido; diferença de valor cobrada ou estornada"
+    }
+  ],
+  "prazos_de_estorno": {
+    "inicio_da_contagem": "aprovação do produto na conferência do centro de distribuição",
+    "prazo_processamento_dias_uteis": 10,
+    "por_forma_de_pagamento": [
+      {
+        "forma_pagamento": "cartao_credito",
+        "meio_de_estorno": "estorno na fatura do cartão",
+        "prazo_visivel_para_o_cliente": "até 2 faturas subsequentes",
+        "observacao": "o prazo de exibição depende da administradora do cartão e foge ao controle da Vitrinifarne"
+      },
+      {
+        "forma_pagamento": "pix",
+        "meio_de_estorno": "transferência para conta bancária de titularidade do comprador",
+        "prazo_visivel_para_o_cliente": "até 10 dias úteis",
+        "observacao": "não realizamos devolução para conta de terceiros"
+      },
+      {
+        "forma_pagamento": "boleto",
+        "meio_de_estorno": "transferência para conta bancária de titularidade do comprador",
+        "prazo_visivel_para_o_cliente": "até 10 dias úteis",
+        "observacao": "é necessário o envio dos dados bancários pelo titular do pedido"
+      }
+    ]
+  },
+  "itens_nao_aceitos_em_arrependimento": [
+    {
+      "categoria": "Personalizados",
+      "motivo": "produzidos sob medida conforme especificação do cliente",
+      "excecao": "aceito em caso de defeito ou divergência"
+    },
+    {
+      "categoria": "Higiene e cuidado pessoal",
+      "motivo": "lacre de segurança violado",
+      "excecao": "aceito em caso de defeito ou divergência"
+    },
+    {
+      "categoria": "Itens de mostruário e outlet",
+      "motivo": "vendidos com desconto e avarias descritas no anúncio",
+      "excecao": "aceito quando o defeito não constava na descrição"
+    }
+  ],
+  "fluxo_de_solicitacao": [
+    {
+      "etapa": 1,
+      "acao": "Cliente abre a solicitação em Meus Pedidos ou pelo e-mail atendimento@vitrinifarne.com.br",
+      "prazo_dias_uteis": 0
+    },
+    {
+      "etapa": 2,
+      "acao": "Pós-venda analisa a solicitação e emite o código de postagem reversa",
+      "prazo_dias_uteis": 2
+    },
+    {
+      "etapa": 3,
+      "acao": "Cliente posta o produto na agência dos Correios com o código informado",
+      "prazo_dias_uteis": 5
+    },
+    {
+      "etapa": 4,
+      "acao": "Centro de distribuição recebe e confere o produto",
+      "prazo_dias_uteis": 3
+    },
+    {
+      "etapa": 5,
+      "acao": "Financeiro processa o estorno",
+      "prazo_dias_uteis": 10
+    }
+  ],
+  "cancelamento_antes_da_entrega": {
+    "pedido_nao_faturado": "cancelamento imediato pelo próprio cliente em Meus Pedidos, com estorno integral",
+    "pedido_faturado_e_nao_postado": "cancelamento mediante contato com o SAC, com estorno integral",
+    "pedido_ja_postado": "cliente deve recusar o recebimento ou solicitar devolução por arrependimento"
+  },
+  "contatos": {
+    "sac": "atendimento@vitrinifarne.com.br",
+    "whatsapp": "(98) 4002-8922",
+    "horario": "segunda a sexta, das 8h às 18h; sábado, das 9h às 13h"
+  }
+}

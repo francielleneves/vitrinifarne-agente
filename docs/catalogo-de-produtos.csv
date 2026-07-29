@@ -1,0 +1,26 @@
+sku,nome_produto,categoria,subcategoria,preco_brl,estoque_unidades,peso_kg,sob_encomenda,prazo_producao_dias_uteis,garantia_meses,material_principal
+VF-LUM-001,Luminária de Mesa Arco Ripado,Iluminação,Luminária de mesa,289.90,42,1.8,nao,0,12,Madeira de pinus
+VF-LUM-002,Pendente Palha Natural 40cm,Iluminação,Pendente,349.90,18,1.2,nao,0,12,Fibra natural
+VF-LUM-003,Abajur Cerâmica Fosca Areia,Iluminação,Abajur,219.90,7,2.4,nao,0,12,Cerâmica
+VF-LUM-004,Trilho de Spots Preto 3 Lâmpadas,Iluminação,Trilho,459.90,0,3.1,sim,10,24,Alumínio
+VF-TEX-001,Manta Tricô Cru 130x170,Têxteis,Manta,189.90,63,1.1,nao,0,3,Algodão
+VF-TEX-002,Jogo de Lençóis 200 Fios Queen,Têxteis,Roupa de cama,279.90,35,2.0,nao,0,3,Algodão percal
+VF-TEX-003,Tapete Kilim Geométrico 150x200,Têxteis,Tapete,689.90,9,6.5,nao,0,6,Lã e algodão
+VF-TEX-004,Almofada Linho Terracota 45x45,Têxteis,Almofada,89.90,120,0.4,nao,0,3,Linho misto
+VF-TEX-005,Cortina Voil Off White 3x2.5m,Têxteis,Cortina,239.90,24,1.6,nao,0,6,Poliéster
+VF-MOB-001,Banqueta Alta Madeira e Palha,Mobiliário,Banqueta,499.90,12,4.8,nao,0,24,Madeira maciça
+VF-MOB-002,Mesa Lateral Redonda Nogueira,Mobiliário,Mesa lateral,629.90,6,7.2,nao,0,24,MDF revestido
+VF-MOB-003,Estante Modular 4 Nichos,Mobiliário,Estante,899.90,3,15.4,sim,15,24,MDF
+VF-MOB-004,Aparador Ripado 120cm Sob Medida,Mobiliário,Aparador,1890.00,0,32.0,sim,20,24,Madeira maciça
+VF-MOB-005,Cabeceira Estofada Casal Bege,Mobiliário,Cabeceira,1249.00,4,18.7,sim,12,24,Espuma e tecido
+VF-ORG-001,Cesto Organizador Fibra Grande,Organização,Cesto,129.90,88,0.9,nao,0,3,Fibra natural
+VF-ORG-002,Kit 3 Caixas Organizadoras Kraft,Organização,Caixa,79.90,150,1.3,nao,0,3,Papelão rígido
+VF-ORG-003,Cabideiro de Parede 5 Ganchos,Organização,Cabideiro,159.90,31,1.0,nao,0,12,Madeira e metal
+VF-UTE-001,Jogo de Taças Cristal 6 Peças,Utensílios,Taça,299.90,27,2.8,nao,0,6,Cristal
+VF-UTE-002,Tábua de Corte Madeira Oval,Utensílios,Tábua,119.90,74,1.5,nao,0,6,Madeira de teca
+VF-UTE-003,Conjunto Potes Vidro 4 Peças,Utensílios,Pote,169.90,52,3.2,nao,0,6,Vidro borossilicato
+VF-DEC-001,Vaso Cerâmica Canelado Grande,Decoração,Vaso,249.90,19,3.6,nao,0,3,Cerâmica
+VF-DEC-002,Espelho Orgânico Moldura Natural,Decoração,Espelho,579.90,8,5.9,sim,8,12,Madeira e vidro
+VF-DEC-003,Quadro Abstrato Bege 60x80,Decoração,Quadro,329.90,15,2.2,nao,0,6,Canvas
+VF-DEC-004,Kit 3 Velas Aromáticas Vetiver,Decoração,Vela,149.90,96,0.8,nao,0,3,Cera de soja
+VF-OUT-001,Luminária Pendente Outlet Mostruário,Outlet,Pendente,179.90,2,1.2,nao,0,3,Fibra natural
