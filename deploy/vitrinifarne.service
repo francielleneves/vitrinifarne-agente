@@ -1,0 +1,14 @@
+[Unit]
+Description=Agente Vitrinifarne
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/vitrinifarne-agente
+EnvironmentFile=/etc/vitrinifarne.env
+ExecStart=/home/ubuntu/vitrinifarne-agente/.venv/bin/python app.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
